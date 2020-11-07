@@ -4,10 +4,6 @@ const links = [
         "icon": "fa fa-heart",
         "links": [
             {
-                "name": "Google", 
-                "url": "https://www.google.com/"
-            },
-            {
                 "name": "Gmail", 
                 "url": "https://mail.google.com/mail/u/0/#inbox"
             },
