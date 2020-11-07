@@ -1,0 +1,67 @@
+html{
+    background-color: #2e3440;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.row {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #929fb2;
+}
+#search{
+    margin: auto;
+    margin-bottom: 0;
+}
+#search input{
+    background-color: #3b4252;
+    border: 1px solid #929fb2;
+    color: #929fb2;
+}
+#weather, #date{
+    text-align: center;
+}
+#date {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+#weather i{
+    font-size: xxx-large;
+}
+#weather span:nth-child(2) {
+    font-size: xxx-large;
+    padding-left: 1rem;
+}
+#weather span:nth-child(3){
+    padding-right: 1rem;
+}
+#bookmarks .column{
+    background-color: #3b4252;
+    box-shadow: 4px 6px 5px 0px #192023;
+    margin: 1rem;
+}
+#bookmarks h2{
+    text-align: center;
+    padding-top: 1rem;
+}
+#bookmarks ul{
+    list-style: none;
+}
+#bookmarks li{
+    padding-left: 2.5rem;
+    font-size: large;
+    font-weight: 400;
+    line-height: 17pt;
+}
+#bookmarks .column a{
+    color: #929fb2;
+}
+#bookmarks .column a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 720px){
+    #date, #weather{
+        display: none;
+    }
+}

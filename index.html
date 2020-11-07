@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startpage</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+    <link rel="stylesheet" href="./lib/milligram-1.4.1/dist/milligram.min.css">
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./lib/weather-icons/css/weather-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./links.json"></script>
+    <script src="./js/icons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="search" class="column column-66">
+                <form action="https://www.google.com/search" method="get" target="_blank">
+                    <input type="text" name="q" placeholder="Search Google" autocomplete="off" />
+                  </form>
+            </div>
+            <div class="column column-33">
+                <div id="date"></div>
+                <div id="weather"></div>
+            </div>
+        </div>
+        <div id="bookmarks" class="row"></div>
+    </div>
+
+    <script src="./js/weather.js"></script>
+    <script src="./js/date.js"></script>
+    <script src="./js/bookmarks.js"></script>
+</body>
+</html>

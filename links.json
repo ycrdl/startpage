@@ -1,0 +1,102 @@
+const links = [
+    {
+        "title": "Favorite",
+        "icon": "fa fa-heart",
+        "links": [
+            {
+                "name": "Google", 
+                "url": "https://www.google.com/"
+            },
+            {
+                "name": "Gmail", 
+                "url": "https://mail.google.com/mail/u/0/#inbox"
+            },
+            {
+                "name": "Calendar",
+                "url": "https://calendar.google.com/calendar/u/0/r?tab=mc&pli=1"
+            },
+            {
+                "name": "Bookmarks",
+                "url": "https://www.google.com/bookmarks/?hl=fr"
+            },
+            {
+                "name": "Outlook",
+                "url": "https://outlook.live.com/mail/inbox"
+            }
+        ]
+    },
+    {
+        "title": "Tools",
+        "icon": "fas fa-tools",
+        "links": [
+            {
+                "name": "Feedly",
+                "url": "https://feedly.com/i/my"
+            },
+            {
+                "name": "Pocket",
+                "url": "https://app.getpocket.com/"
+            },
+            {
+                "name": "Evernote",
+                "url": "https://www.evernote.com/client/web"
+            },
+            {
+                "name": "Netatmo",
+                "url": "https://my.netatmo.com/app/energy"
+            },
+            {
+                "name": "Strava",
+                "url": "https://www.strava.com/dashboard"
+            },
+            {
+                "name": "Garmin Connect",
+                "url": "https://connect.garmin.com/modern/"
+            }
+        ]
+    },
+    {
+        "title": "Social",
+        "icon": "fas fa-user-friends",
+        "links": [
+            {
+                "name": "Twitter", 
+                "url": "https://twitter.com"
+            },
+            {
+                "name": "Facebook", 
+                "url": "https://facebook.com"
+            },
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/?hl=fr"
+            },
+            {
+                "name": "Reddit",
+                "url": "https://www.reddit.com/"
+            }
+        ]
+    },
+    {
+        "title": "Music",
+        "icon": "fab fa-youtube",
+        "links": [
+            {
+                "name": "Youtube",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "name": "Soundcloud",
+                "url": "https://soundcloud.com/stream"
+            },
+            {
+                "name": "Mixcloud",
+                "url": "https://www.mixcloud.com/"
+            },
+            {
+                "name": "Spotify",
+                "url": "https://open.spotify.com/"
+            }
+        ]
+    }
+]
