@@ -5,24 +5,20 @@
     --fc: #204969;
     --sc : #dadada;
 }
-
 .darktheme{
     --bg: #2e3440;
     --sbg: #3b4252;
     --fc: #929fb2;
     --sc: #192023;
-
 }
-
 body{
     font-family: 'Raleway', sans-serif;
     background-color: var(--bg);
-
+    color: var(--fc);
 }
 .row {
     margin-bottom: 1rem;
     margin-top: 1rem;
-    color: var(--fc);
 }
 #themeButton{
     position: absolute;
