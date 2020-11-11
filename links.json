@@ -78,10 +78,6 @@ const links = [
         "icon": "fab fa-youtube",
         "links": [
             {
-                "name": "Youtube",
-                "url": "https://www.youtube.com/"
-            },
-            {
                 "name": "Soundcloud",
                 "url": "https://soundcloud.com/stream"
             },
@@ -90,9 +86,55 @@ const links = [
                 "url": "https://www.mixcloud.com/"
             },
             {
+                "name": "Youtube",
+                "url": "https://www.youtube.com/"
+            },            
+            {
                 "name": "Spotify",
                 "url": "https://open.spotify.com/"
+            },
+            {
+                "name": "TuneIn",
+                "url": "https://tunein.com/user/yan_ucci/"
+            },
+            {
+                "name": "WhoSampled",
+                "url": "https://www.whosampled.com/"
+            },
+            {
+                "name": "Discogs",
+                "url": "https://www.discogs.com/"
             }
         ]
-    }
+    },
+    {
+        "title": "Entertainment",
+        "icon": "fas fa-mug-hot",
+        "links": [
+            {
+                "name": "Pinterest",
+                "url": "https://www.pinterest.fr/"
+            },
+            {
+                "name": "Dealabs",
+                "url": "https://www.dealabs.com/"
+            },
+            {
+                "name": "TV Time",
+                "url": "https://www.tvtime.com/fr#"
+            },
+            {
+                "name": "TV",
+                "url": "https://television.telerama.fr/tele/grille"
+            },
+            {
+                "name": "Sens Critique",
+                "url": "https://www.senscritique.com/"
+            },
+            {
+                "name": "Météo",
+                "url": "https://meteofrance.com/previsions-meteo-france/nancy/54000"
+            }
+        ]
+    }    
 ]
