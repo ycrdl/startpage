@@ -1,22 +1,46 @@
-html{
-    background-color: #2e3440;
+:root {
+    /*light theme*/
+    --bg: #fff7f7;
+    --sbg: #ceefe4;
+    --fc: #204969;
+    --sc : #dadada;
 }
+
+.darktheme{
+    --bg: #2e3440;
+    --sbg: #3b4252;
+    --fc: #929fb2;
+    --sc: #192023;
+
+}
+
 body{
     font-family: 'Raleway', sans-serif;
+    background-color: var(--bg);
+
 }
 .row {
     margin-bottom: 1rem;
     margin-top: 1rem;
-    color: #929fb2;
+    color: var(--fc);
+}
+#themeButton{
+    position: absolute;
+    z-index: 100;
+    right: 5px;
+    top: 5px;
+    background-color: var(--sbg);
+    color: var(--fc);
+    border: none;
 }
 #search{
     margin: auto;
     margin-bottom: 0;
 }
 #search input{
-    background-color: #3b4252;
-    border: 1px solid #929fb2;
-    color: #929fb2;
+    background-color: var(--sbg);
+    border: 1px solid var(--fc);
+    color: var(--fc);
 }
 #weather, #date{
     text-align: center;
@@ -36,28 +60,28 @@ body{
 #weather span:nth-child(3){
     padding-right: 1rem;
 }
-#bookmarks .column{
-    background-color: #3b4252;
-    box-shadow: 4px 6px 5px 0px #192023;
+#links .column{
+    background-color: var(--sbg);
+    box-shadow: 4px 6px 5px 0px var(--sc);
     margin: 1rem;
 }
-#bookmarks h2{
+#links h2{
     text-align: center;
     padding-top: 1rem;
 }
-#bookmarks ul{
+#links ul{
     list-style: none;
 }
-#bookmarks li{
+#links li{
     padding-left: 2.5rem;
     font-size: large;
     font-weight: 400;
     line-height: 17pt;
 }
-#bookmarks .column a{
-    color: #929fb2;
+#links .column a{
+    color: var(--fc);
 }
-#bookmarks .column a:hover{
+#links .column a:hover{
     text-decoration: underline;
 }
 @media (max-width: 720px){

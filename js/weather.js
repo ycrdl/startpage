@@ -12,7 +12,6 @@ function getWeather(){
             return data;
         })
         .then(function (data){
-            console.log(data);
 
             weather.temperature = Math.floor(data.main.temp - 273.15);
             weather.description = data.weather[0].description;

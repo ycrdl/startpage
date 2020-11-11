@@ -1,5 +1,5 @@
 function display(json){
-    const content = document.getElementById("bookmarks");
+    const content = document.getElementById("links");
 
     for(var i in json){
         var title = document.createElement("h2");
