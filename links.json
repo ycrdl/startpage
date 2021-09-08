@@ -13,7 +13,7 @@ const links = [
             },
             {
                 "name": "Bookmarks",
-                "url": "https://www.google.com/bookmarks/?hl=fr"
+                "url": "https://saved.io/"
             },
             {
                 "name": "Outlook",
