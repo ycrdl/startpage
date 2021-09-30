@@ -34,8 +34,8 @@ const links = [
                 "url": "https://app.getpocket.com/"
             },
             {
-                "name": "Evernote",
-                "url": "https://www.evernote.com/client/web"
+                "name": "Notion",
+                "url": "https://www.notion.so/"
             },
             {
                 "name": "Netatmo",
