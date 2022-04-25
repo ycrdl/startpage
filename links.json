@@ -18,7 +18,7 @@ const links = [
             {
                 "name": "Chat",
                 "url": "https://mail.google.com/chat/u/0/#chat/welcome"
-            }
+            },
             {
                 "name": "Outlook",
                 "url": "https://outlook.live.com/mail/inbox"
