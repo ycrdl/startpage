@@ -60,10 +60,6 @@ const links = [
         "icon": "fas fa-user-friends",
         "links": [
             {
-                "name": "Twitter", 
-                "url": "https://twitter.com"
-            },
-            {
                 "name": "Facebook", 
                 "url": "https://facebook.com"
             },
@@ -94,8 +90,8 @@ const links = [
                 "url": "https://www.youtube.com/"
             },            
             {
-                "name": "Spotify",
-                "url": "https://open.spotify.com/"
+                "name": "Tidal",
+                "url": "https://listen.tidal.com/"
             },
             {
                 "name": "TuneIn",
@@ -124,16 +120,8 @@ const links = [
                 "url": "https://www.dealabs.com/"
             },
             {
-                "name": "TV Time",
-                "url": "https://www.tvtime.com/fr#"
-            },
-            {
                 "name": "TV",
                 "url": "https://television.telerama.fr/tele/grille"
-            },
-            {
-                "name": "Sens Critique",
-                "url": "https://www.senscritique.com/"
             },
             {
                 "name": "Météo",
